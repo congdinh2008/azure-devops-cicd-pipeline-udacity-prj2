@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 PORT=443
+APPNAME=udacity-project2-app
 echo "Port: $PORT"
+echo "App Name: $APPNAME"
 
 # POST method predict
 curl -d '{
@@ -25,5 +27,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://udacity-project2-app.azurewebsites.net:$PORT/predict 
-     #your application name <yourappname>goes here
+     -X POST https://$APPNAME.azurewebsites.net:$PORT/predict
