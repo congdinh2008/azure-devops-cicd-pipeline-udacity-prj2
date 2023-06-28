@@ -1,5 +1,7 @@
 # Udacity Nanodegree: Cloud DevOps using Microsoft Azure - Project: Building a CI/CD Pipeline
 
+[![Python application test with Github Actions](https://github.com/congdinh2008/azure-devops-cicd-pipeline-udacity-prj2/actions/workflows/pythonapp.yml/badge.svg?branch=main)](https://github.com/congdinh2008/azure-devops-cicd-pipeline-udacity-prj2/actions/workflows/pythonapp.yml)
+
 ## Table of Contents
 
 - [Overview](#overview)
