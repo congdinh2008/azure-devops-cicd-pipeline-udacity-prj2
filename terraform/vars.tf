@@ -3,13 +3,13 @@
 variable "resource_group_name" {
   type        = string
   description = "Name of the resource group in which the resources will be created"
-  default     = "udacityproject02-rg"
+  default     = "Azuredevops"
 }
 
 variable "location" {
   type        = string
   description = "Location where resources will be created"
-  default     = "southeastasia"
+  default     = "southcentralus"
 }
 
 variable "prefix" {
